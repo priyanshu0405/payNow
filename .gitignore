@@ -1,0 +1,14 @@
+# Python / Backend
+/backend/__pycache__/
+/backend/venv/
+/backend/.pytest_cache/
+/backend/.env
+
+# Node / Frontend
+/frontend/node_modules/
+/frontend/build/
+/frontend/.pnp.js
+
+# IDE-specific
+.vscode/
+.idea/
