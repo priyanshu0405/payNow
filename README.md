@@ -1,7 +1,6 @@
 # PayNow + Agent Assist Service
 
 This repository contains the backend service and frontend UI for the "PayNow + Agent Assist" feature, developed as part of the Zeta SDE II assessment. It is a production-minded monorepo containing a FastAPI application and a React UI.
-
 ---
 
 ## How to Run Locally
@@ -60,7 +59,7 @@ The overall service architecture involves a client (React UI) communicating with
 
 ---
 
-### ## Key Design Decisions & Trade-offs
+## Key Design Decisions & Trade-offs
 
 **What I Optimized For**: This implementation optimizes for **simplicity, correctness, and developer experience**. The code is modular and easy to understand. The monorepo structure keeps both backend and frontend code in a single, version-controlled location.
 
@@ -74,7 +73,7 @@ The overall service architecture involves a client (React UI) communicating with
 
 ---
 
-### ## Feature Deep-Dive
+## Feature Deep-Dive
 
 * **Performance (p95)**:
     * The use of an in-memory database makes tool calls extremely fast.
