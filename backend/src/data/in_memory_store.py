@@ -36,7 +36,7 @@ class InMemoryStore:
         with cls._lock:
             if cls._instance is None:
                 cls._instance = super(InMemoryStore, cls).__new__(cls)
-                cls._instance.customer_balances = {"c_123": 300.00, "c_456": 50.00}
+                cls._instance.customer_balances = {"c_123": 300.00, "c_456": 2000.00}
                 cls._instance.idempotency_requests: Dict[str, Tuple[int, Any]] = {}
                 cls._instance.rate_limit_buckets: Dict[str, TokenBucket] = {}
                 cls._instance.balance_locks: Dict[str, Lock] = {
